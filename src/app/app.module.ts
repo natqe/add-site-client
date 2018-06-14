@@ -10,6 +10,8 @@ import { AppAsideComponent } from './app-aside/app-aside.component';
 import { WindowOptionsComponent } from './window-options/window-options.component';
 import { WindowOptionListComponent } from './window-option-list/window-option-list.component';
 import { MatTableModule, MatPaginatorModule, MatSortModule } from '@angular/material';
+import {MatExpansionModule} from '@angular/material/expansion';
+import { AppListComponent } from './app-list/app-list.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { MatTableModule, MatPaginatorModule, MatSortModule } from '@angular/mate
     AppMainComponent,
     AppAsideComponent,
     WindowOptionsComponent,
-    WindowOptionListComponent
+    WindowOptionListComponent,
+    MatExpansionModule,
+    AppListComponent
   ],
   imports: [
     BrowserModule,
